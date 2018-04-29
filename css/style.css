@@ -107,21 +107,7 @@ h4 {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
-.btn-twitter:hover {
-    color: #2BA9E0;
-}
-.btn-facebook:hover {
-    color: #204385;
-}
 
-
-.btn-linkedin:hover {
-    color: #015786;
-}
-
-.btn-google:hover {
-    color: #D3492C;
-}
 /* ==========================================================================
    						Projects
    ========================================================================== */
