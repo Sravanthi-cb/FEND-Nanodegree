@@ -1,200 +1,215 @@
-body, html {
-  width: 100%;
-  height: 100%;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-.section-header {
-  padding: 20px;
-  text-decoration: underline;
-  text-align: center;
-}
+    body, html {
+      width: 100%;
+      height: 100%;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+    .section-header {
+      padding: 20px;
+      text-decoration: underline;
+      text-align: center;
+    }
 
-/* ==========================================================================
-Navbar
-========================================================================== */
+    /* ==========================================================================
+    Navbar
+    ========================================================================== */
 
-.navbar {
-  width: 100%;
-}
-.navbar-default {
-  border: none;
-  color: #777;
-  text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
-  position: fixed;
-}
-.navbar-nav {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  display: inline-block;
-  float: none;
-  font-size: 1em;
-  font-weight: bold;
-}
-/* ==========================================================================
-About
-========================================================================== */
+    .navbar {
+      width: 100%;
+    }
+    .navbar-default {
+      border: none;
+      color: #777;
+      text-transform: uppercase;
+      display: inline-block;
+      text-align: center;
+      position: fixed;
+    }
+    .navbar-nav {
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      display: inline-block;
+      float: none;
+      font-size: 1em;
+      font-weight: bold;
+    }
+    /* ==========================================================================
+    About
+    ========================================================================== */
 
-.header-section {
-  background: url("../images/portfolio.jpg") no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 100%!important;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  color: #f8f8f8;
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
-.header-text h1 {
-  font-size: 2em;
-}
-.header-text p {
-  font-size: 1em;
-}
+    .header-section {
+      background: url("../images/portfolio.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%!important;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      color: #f8f8f8;
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+    .header-text h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    .header-text p {
+      font-size: 1em;
+      text-align: center;    
+    }
 
-/* ==========================================================================
-icons
-========================================================================== */
+    /* ==========================================================================
+    icons
+    ========================================================================== */
 
-.icons .btn {
-  margin-right: 15px;
-}
-.icons {
-  padding-top: 10px;
-  margin-bottom: 35px;
+    .icons .btn {
+      margin-right: 15px;
+    }
+    .icons {
+      padding-top: 10px;
+      margin-bottom: 35px;
 
-}
-.icons .btn.btn-clear {
-  border: 1px solid #fff;
-}
-.btn-round {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  padding: 0;
-}
-.btn-round i {
-  font-size: 20px;
-  top: 15px;
-  position: relative;
-}
-.btn.btn-clear {
-  border: 1px solid #fff;
-  color: #fff;
-  font-weight: bold;
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  -o-transition-property: -o-transform;
-  transition-property: transform;
-}
-.btn.btn-clear:hover, .btn.btn-clear.selected {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-}
-/* ==========================================================================
-Projects
-========================================================================== */
-
-
-.content-section-project1 {
-  padding: 20px;
-
-}
-.content-section-project2 {
-  padding: 20px;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
-}
-.lead {
-  font-size: 18px;
-  font-weight: 400;
-}
-.section-heading {
-  margin-bottom: 30px;
-}
+    }
+    .icons .btn.btn-clear {
+      border: 1px solid #fff;
+    }
+    .btn-round {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      padding: 0;
+    }
+    .btn-round i {
+      font-size: 20px;
+      top: 15px;
+      position: relative;
+    }
+    .btn.btn-clear {
+      border: 1px solid #fff;
+      color: #fff;
+      font-weight: bold;
+      -webkit-transition-duration: 0.8s;
+      -moz-transition-duration: 0.8s;
+      -o-transition-duration: 0.8s;
+      transition-duration: 0.8s;
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      -o-transition-property: -o-transform;
+      transition-property: transform;
+    }
+    .btn.btn-clear:hover, .btn.btn-clear.selected {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+    }
+    /* ==========================================================================
+    Projects
+    ========================================================================== */
 
 
-/* ==========================================================================
-Skills
-========================================================================== */
+    .content-section-project1 {
+      padding: 20px;
 
-.chart {
-  position: relative;
-  display: block;
-  width: 110px;
-  height: 110px;
-  text-align: center;
-  color: #fff;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-}
-.chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 110px;
-  height: 110px;
-
-}
-.percent {
-  display: inline-block;
-  line-height: 110px;
-  z-index: 2;
-  font-size: 1em;
-  color: #02b3e4;
-
-}
-
-.chart h4 {
-  line-height: 2px;
-  display: block;
-  color: #000;
-}
-
-/* ==========================================================================
-Form
-========================================================================== */
-#contact {
-  padding: 20px;
-  background: url("../images/portfolio_page2.jpg") no-repeat center center;
+    }
+    .content-section-project2 {
+      padding: 20px;
+      border-top: 1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7;
+    }
+    .lead {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .section-header {
+      padding: 20px;
+      margin-bottom: 30px;
+    }
 
 
-}
+    /* ==========================================================================
+    Skills
+    ========================================================================== */
+    #skills  {
+      padding: 75px 0;
+       background-color: #f7f7f7;
+    }
+    .chart {
+      position: relative;
+      display: block;
+      width: 110px;
+      height: 110px;
+      text-align: center;
+      color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+      margin-bottom: 50px;
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-input[type=submit] {
-  width: 100%;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-/* ==========================================================================
-Footer
-========================================================================== */
 
-footer {
-  background-color: #f7f7f7;
-  width: 100%;
-  padding: 10px;
-}
+    }
+    .chart canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 110px;
+      height: 110px;
+
+    }
+
+    .percent {
+      display: inline-block;
+      line-height: 110px;
+      z-index: 2;
+      color: #02b3e4;
+
+    }
+    .percent:after {
+       margin-left: 0.1em;
+      content: '%';
+    }
+    .chart h4 {
+
+        line-height: 2px;
+      display: block;
+      color: #000;
+
+    }
+
+    /* ==========================================================================
+    Form
+    ========================================================================== */
+    #contact {
+      padding: 20px;
+      background: url("../images/portfolio_page2.jpg") no-repeat center center;
+
+
+    }
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    input[type=submit] {
+      width: 100%;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    /* ==========================================================================
+    Footer
+    ========================================================================== */
+
+    footer {
+      background-color: #f7f7f7;
+      width: 100%;
+      padding: 10px;
+    }
+
+
